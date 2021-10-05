@@ -223,3 +223,11 @@ console.log(myFish ); // o/p - ['angel', 'clown', 'drum', 'mandarin', 'sturgeon'
 const removedList = myFish.splice(2, 2, 'drum',"guitar");
 console.log(removedList) // o/p -  ['drum', 'mandarin']
 console.log(myFish ); // o/p - ['angel', 'clown', 'drum', 'guitar', 'sturgeon']
+
+const narr12 = [1,2,3,4,5,6,7];
+console.log(narr12.length);
+narr12.length = false;
+console.log(narr12.length);
+narr12.push(1,2,3,4,5,6,7);
+narr12.length = 2;
+console.log(narr12);
